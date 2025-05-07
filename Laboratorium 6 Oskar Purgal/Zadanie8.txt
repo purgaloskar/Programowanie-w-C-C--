@@ -1,0 +1,23 @@
+Oto rzeczy  ktore sa zle;
+char x[1] = "z"; – za mała tablica, potrzebne 2 miejsca ('z' i '\0').
+
+char z[2] = 'a'; – przypisanie znaku zamiast napisu.
+
+char y = "z"; – przypisanie napisu do zmiennej typu char.
+
+poprawiony kod;
+#include <iostream>
+using namespace std;
+
+int main() {
+    char x[2] = "z";
+    char z[2] = "a";
+    char y = 'z';
+
+    cout << x << endl;
+    cout << z << endl;
+    cout << y << endl;
+
+    return 0;
+}
+

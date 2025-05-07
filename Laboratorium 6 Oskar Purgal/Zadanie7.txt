@@ -1,0 +1,30 @@
+char imie[4] = "Pawel"; – za mała tablica, potrzeba char imie[6].
+
+main() – brak typu int i nawiasów {}.
+
+Brak #include <iostream> i using namespace std;.
+
+x=y=z=3; – zmienne y i z nie zadeklarowane.
+
+*wsk = 35; – wskaźnik wsk nie wskazuje nigdzie (brak inicjalizacji).
+
+podatek = "23%"; – nie można przypisać napisu do float.
+
+Poprawiona wersja tego kodu;
+#include <iostream>
+using namespace std;
+
+int main() {
+    char imie[6] = "Pawel";
+    int zmienna = 0;
+    int* wsk = &zmienna;
+    float podatek = 0.23f;
+    char napis[124];
+    int licznik = 5;
+    int x = 3, y = 3, z = 3;
+    *wsk = 35;
+    licznik = 1;
+    cout << wsk << endl;
+    return 0;
+}
+
