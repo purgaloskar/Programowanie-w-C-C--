@@ -1,0 +1,5 @@
+Funkcja: (1-x)(x+2)(x^3)(x^2)+x
+Zakres: -3.00000 do 2.00000, krok: 0.10000
+Ekstrema:
+x=-1.70000, y=-13.20084, lokalne minimum
+x=0.90000, y=1.07124, lokalne maksimum
